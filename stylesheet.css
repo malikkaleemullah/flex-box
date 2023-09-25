@@ -1,0 +1,40 @@
+.container,header{
+    border: 1px solid rgb(241, 234, 234);
+    border-radius: 1rem;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    padding-bottom: 5px;
+    border: 1px solid rgb(18, 11, 11);
+    border-radius: 1rem;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liftcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100%;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.rightcontainer{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(54, 152, 88);
+}
+img{
+    padding-inline: 1rem;
+    border-radius: 50%;
+}
+.headerCenter{
+    flex-basis: auto;
+}
